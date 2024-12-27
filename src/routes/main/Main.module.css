@@ -1,0 +1,22 @@
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.top, .bottom {
+   display: flex;
+   justify-content: space-between;
+   gap: 26px;
+}
+
+.top {
+   margin-bottom: 24px;
+}
+
+.top div:first-child {
+   width: 60%;
+}
+.top div:last-child {
+   width: 40%;
+}

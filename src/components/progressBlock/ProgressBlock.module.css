@@ -1,0 +1,38 @@
+.block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 199px;
+   padding: 24px;
+   background-color: #fff;
+}
+
+.info {
+   display: flex;
+   width: 180px;
+   height: 100%;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.title {
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.date, .lastDate {
+   font-size: 14px;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 0.396);
+}
+
+.lastDate span {
+   color: #1EB564;
+   width: 100%;
+   margin-right: 10px;
+}
+
+.count {
+   font-size: 32px;
+   font-weight: 700;
+}
