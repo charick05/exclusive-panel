@@ -1,0 +1,47 @@
+.sidebar {
+   max-width: 260px;
+   width: 100%;
+   color: rgba(0, 0, 0, 0.402);
+   background-color: #fff;
+   padding: 20px 18px;
+}
+
+.goToHome {
+   text-decoration: none;
+}
+
+.title {
+   font-size: 24px;
+   color: black;
+}
+
+.subtitle {
+   text-transform: uppercase;
+   font-size: 11px;
+   margin: 15px 0;
+}
+
+.sbBlock {
+   width: 100%;
+   padding: 16px 14px 14px 30px;
+}
+
+.sbBlock li {
+   display: flex;
+   align-items: center;
+   font-size: 15px;
+   font-weight: 600;
+   margin-bottom: 8px;
+   height: 40px;
+}
+
+.sbBlock li a {
+   color: rgba(0, 0, 0, 0.402);
+   text-decoration: none;
+}
+
+.sbBlock li img {
+   height: 22px;
+   margin-right: 8px;
+}
+

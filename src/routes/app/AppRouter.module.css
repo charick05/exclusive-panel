@@ -1,0 +1,10 @@
+.app_container {
+   display: flex;
+   gap: 26px;
+}
+
+.main_content {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
