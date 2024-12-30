@@ -1,0 +1,115 @@
+/* ========  ОБЩИЙ БЛОК  ================= */
+
+.reports {
+   display: flex;
+   justify-content: space-between;
+   gap: 26px;
+   height: 476px;
+   margin-bottom: 64px;
+}
+/* ========  ДОЧ БЛОК  СЛЕВА  ================= */
+.info {
+   display: flex;
+   width: 59%;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 24px;
+   background-color: #fff;
+}
+
+.top {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 150px;
+}
+
+.title_block {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 48px;
+}
+
+.title_block h3 {
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.title_block span {
+   font-weight: 500;
+   font-size: 14px;
+   color: #00000078;
+}
+
+.coutes {
+   display: flex;
+   justify-content: space-between;
+   height: 78px;
+}
+
+.coutes div {
+   width: 20%;
+}
+
+.coutes div:first-child {
+   border-bottom: #0F60FF 4px solid;
+}
+
+.countblock {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.countblock h1 {
+   font-size: 24px;
+}
+
+.countblock h3 {
+   font-weight: 500;
+   font-size: 15px;
+   color: #00000078;
+}
+
+
+/* ========  ДОЧ БЛОК СПРАВА  ================= */
+
+.users {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 24px;
+   width: 38%;
+   background-color: #fff;
+}
+
+.users_info {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 182px;
+}
+
+.users_info img {
+   width: 100%;
+   margin-bottom: 16px;
+}
+
+.title {
+   font-weight: 600;
+   font-size: 18px;
+   margin-bottom: 8px;
+}
+
+.subtitle {
+   font-weight: 500;
+   font-size: 14px;
+   color: #00000078;
+   margin-bottom: 8px;
+}
+
+.sales {
+   font-size: 18px;
+   font-weight: 600;
+}
