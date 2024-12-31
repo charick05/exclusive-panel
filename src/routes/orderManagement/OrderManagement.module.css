@@ -1,0 +1,128 @@
+.orderManagement {
+   display: flex;
+   flex-direction: column;
+   color: rgba(0, 0, 0, 0.558);
+   margin-bottom: 100px;
+}
+
+.nav {
+   display: flex;
+   height: 38px;
+   margin-bottom: 24px;
+   align-items: center;
+   border-bottom: #00000030 1px solid;
+}
+
+.nav li {
+   list-style: none;
+   padding-left: 20px;
+   padding-right: 20px;
+   cursor: pointer;
+   padding-bottom: 5px;
+   user-select: none;
+}
+
+.filterBlock {
+   display: flex;
+   justify-content: space-between;
+   height: 40px;
+   margin-bottom: 16px;
+}
+
+.inputBlock {
+   position: relative;
+   height: 100%;
+   width: 200px;
+}
+
+.inputBlock input {
+   height: 100%;
+   width: 100%;
+   padding-left: 16px;
+}
+
+.searchIcon {
+   position: absolute;
+   width: 18px;
+   height: 18px;
+   right: 10px;
+   top: 10px;
+}
+
+.filter {
+   font-weight: 500;
+   height: 100%;
+   width: 200px;
+   padding: 11px 16px;
+   text-align: center;
+   align-content: center;
+   border-radius: 6px;
+   border: 1px solid;
+   background-color: #fff;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   gap: 3px;
+}
+
+.panel, .orderBlock {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 100px;
+   background-color: #fff;
+}
+
+.panel span, .orderBlock span {
+   width: 170px;
+   height: 26px;
+   align-content: center;
+   margin-left: 16px;
+   margin-right: 24px;
+   padding-left: 20px;
+}
+
+.orderBlock {
+   position: relative;
+   height: 60px;
+   color: #000;
+}
+
+.orderBlock span:first-child {
+   font-weight: 600;
+}
+
+.panel {
+   text-transform: uppercase;
+   height: 47px;
+}
+
+.switch {
+   position: absolute;
+   right: -115px;
+}
+
+.status {
+   position: relative;
+   width: 97px;
+   border-radius: 4px;
+   font-weight: 600;
+}
+
+.status span {
+   position: absolute;
+   right: -100%;
+   top: 0;
+   cursor: pointer;
+}
+
+.pagBlock {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 70px;
+   padding-left: 24px;
+   padding-right: 24px;
+}

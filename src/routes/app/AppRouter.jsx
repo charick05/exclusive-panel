@@ -3,6 +3,7 @@ import { Header } from '../../components/header/Header';
 import { Sidebar } from '../../components/sidebar/Sidebar';
 import { Home } from '../home/Home';
 import { ErrorPage } from '../errorPage/ErrorPage';
+import { OrderManagement } from '../orderManagement/OrderManagement';
 import styles from './AppRouter.module.css';
 
 function AppRouter() {
@@ -14,6 +15,7 @@ function AppRouter() {
             <div className={styles.content}>
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/order" element={<OrderManagement />} />
                     <Route path='*' element={<ErrorPage />} />
                 </Routes>
             </div>

@@ -10,7 +10,9 @@ export const TopSelling = () => {
             <h3>Top Selling Category</h3>
             <span>Total 10.4k Visitors</span>
          </div>
-         <img src="/assets/topSelling_img/topsell.png" alt="" />
+         <div className={styles.img}>
+            <img src="/assets/topSelling_img/topsell.png" alt="" />  
+         </div>
       </div>
       <div className={styles.transactions}>
         <div className={styles.title}>
@@ -26,7 +28,7 @@ export const TopSelling = () => {
           </div>
           {
             data.map(e => 
-            <div>
+            <div key={e.id}>
               <div>{e.id}</div>
               <div>{e.issued_date}</div>
               <div>{e.total}</div>

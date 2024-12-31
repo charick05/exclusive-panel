@@ -18,7 +18,7 @@ export const BestSell = () => {
           </div>
           {
             dataSell.map(e => 
-            <div>
+            <div key={e.product}>
               <div>{e.product}</div>
               <div>{e.total_order}</div>
               <div>{e.status}</div>
@@ -35,7 +35,7 @@ export const BestSell = () => {
          <div className={styles.listPto}>
             {
                trendProducts.map(e => 
-                  <div className={styles.proBlock}>
+                  <div key={e.id} className={styles.proBlock}>
                      <div className={styles.product}>
                         <h4>{e.product}</h4>
                         <span>{e.id}</span>

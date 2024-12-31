@@ -18,6 +18,16 @@
    overflow: hidden;
 }
 
+.img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.img img {
+   height: 100%;
+}
+
 .titleBlock {
    display: flex;
    flex-direction: column;

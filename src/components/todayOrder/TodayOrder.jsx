@@ -37,7 +37,7 @@ export const TodayOrder = () => {
           </div>
           {
             dataOrders.map(e => 
-            <div>
+            <div key={e.id}>
               <div>{e.id}</div>
               <div>{e.customer}</div>
               <div style={{color: e.status === "Pending" ? '#FFC600' : '#1EB564'}}>{e.status}</div>

@@ -11,12 +11,12 @@ export const Main = () => {
     <div className={styles.main}>
       <div className={styles.top}>
         {
-          topBlocks.map(e => <ProgressBlock title={e.title} count={e.count} img={e.img}/>)
+          topBlocks.map(e => <ProgressBlock key={e.title} title={e.title} count={e.count} img={e.img}/>)
         }
       </div>
       <div className={styles.bottom}>
         {
-          bottomBlocks.map(e => <ProgressBlock title={e.title} count={e.count} img={e.img}/>)
+          bottomBlocks.map(e => <ProgressBlock key={e.title} title={e.title} count={e.count} img={e.img}/>)
         }
       </div>
     </div>
