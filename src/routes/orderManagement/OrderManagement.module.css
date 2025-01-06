@@ -111,10 +111,25 @@
    font-weight: 600;
 }
 
-.status span {
+.status span:first-child {
    position: absolute;
    right: -100%;
    top: 0;
+   cursor: pointer;
+}
+
+.selectStatus {
+   position: absolute;
+   left: -15px;
+   bottom: -40px;
+   display: flex;
+   flex-direction: column;
+   z-index: 2;
+   background-color: rgb(144, 177, 177);
+   color: #000;
+}
+
+.selectStatus span {
    cursor: pointer;
 }
 
@@ -126,3 +141,76 @@
    padding-left: 24px;
    padding-right: 24px;
 }
+
+.showing {
+   display: flex;
+   justify-content: space-between;
+   width: 197px;
+   height: 38px;
+   align-items: center;
+   gap: 8px;
+}
+
+.showing span {
+   font-weight: 500;
+   font-size: 15px;
+}
+
+.select {
+   position: relative;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 78px;
+   height: 100%;
+   color: #000;
+   border: 1px #00000030 solid;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+.selectList {
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -140px;
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+
+.selectList span {
+   text-align: center;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   background-color: #eee;
+   border-radius: 4px;
+   transition: .2s linear;
+}
+
+.selectList span:hover {
+   background-color: rgba(189, 0, 0, 0.632);
+   color: #fff;
+}
+
+.pagination {
+   display: flex;
+   justify-content: space-between;
+   gap: 2px;
+   height: 28px;
+}
+
+.num {
+   font-size: 13px;
+   align-content: center;
+   text-align: center;
+   background-color: #eee;
+   width: 28px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.num:first-child {
+   transform: rotate(180deg);
+}
+

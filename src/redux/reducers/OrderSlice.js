@@ -10,7 +10,7 @@ const OrderSlice = createSlice({
    reducers: {
       statusChange: (state, action) => {
          state.status = action.payload;
-      }
+      },
    }
    },
 );
